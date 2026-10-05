@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://home4work.ru/sitemap.xml
+Host: home4work.ru
