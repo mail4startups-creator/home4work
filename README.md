@@ -1,10 +1,18 @@
-# Home4Work (home4work.ru)
-Портал об эргономике рабочего места и продуктивности на удаленке.
+# Кабинет Дома (kabinetdoma.ru)
+Экспертный портал об обустройстве домашнего кабинета, эргономике столов и кресел, звуке и продуктивной работе на удаленке.
 
-## Инструкция по размещению на GitHub Pages:
-1. Зайдите в ваш репозиторий на GitHub (например, https://github.com/ваш-логин/home4work).
-2. Загрузите все файлы из этого архива (включая index.html, папку assets, .nojekyll, robots.txt, sitemap.xml).
-3. Перейдите в Settings -> Pages.
-4. В разделе "Build and deployment" выберите Branch: "main" (или "gh-pages") и папку "/ (root)". Нажмите Save.
-5. Через 1 минуту ваш сайт будет доступен по адресу:
-   https://ваш-логин.github.io/home4work/
+## Инструкция по привязке к GitHub Pages и домену kabinetdoma.ru:
+1. Зайдите в ваш репозиторий на GitHub.
+2. Загрузите все распакованные файлы из этого архива (включая index.html, папку assets, .nojekyll, CNAME, robots.txt, sitemap.xml).
+3. Перейдите в Settings -> Pages:
+   - В разделе "Build and deployment" выберите Branch: "main" и папку "/ (root)".
+   - В поле "Custom domain" введите: kabinetdoma.ru
+   - Нажмите Save.
+4. В панели регистратора домена (где куплен kabinetdoma.ru) добавьте 4 A-записи на IP-адреса GitHub:
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+5. Включите галочку "Enforce HTTPS".
+6. Через 15-30 минут ваш сайт будет работать по адресу:
+   https://kabinetdoma.ru/
