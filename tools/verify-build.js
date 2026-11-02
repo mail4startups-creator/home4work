@@ -101,15 +101,24 @@ if (exists('data/catalog.js')) {
       byId.set(p.id, p);
       if (!p.name) fail(`${label}: нет названия`);
       if (p.image) {
-        if (!/^https:\/\//.test(p.image) && p.image[0] !== '/') {
-          fail(`${label}: картинка должна быть https:// или путём от корня`);
+        if (/^data:image\//.test(p.image)) {
+          if (!/^data:image\/(jpeg|png|webp|gif);base64,[A-Za-z0-9+/=]+$/.test(p.image)) {
+            fail(`${label}: битая картинка в base64 — загрузите фото заново`);
+          } else if (p.image.length > 230000) {
+            fail(`${label}: фото слишком тяжёлое для catalog.js (${Math.round(p.image.length / 1024)} КБ base64)`);
+          }
+        } else if (!/^https:\/\//.test(p.image) && p.image[0] !== '/') {
+          fail(`${label}: картинка должна быть https://, путём от корня или загруженным фото`);
         } else if (p.image[0] === '/' && !exists(p.image.slice(1))) {
           fail(`${label}: картинки нет на диске — ${p.image}`);
         }
       }
       if (!['hidden', 'note'].includes(p.price_mode)) fail(`${label}: price_mode только "hidden" или "note"`);
       if ('price' in p || 'priceText' in p || 'price_from' in p || 'priceFrom' in p) {
-        fail(`${label}: цена хранится в каталоге, а на сайте её печатать нельзя`);
+        fail(`${label}: цена хранится в price_rub — это единственное поле цены`);
+      }
+      if ('price_rub' in p && !(Number.isInteger(p.price_rub) && p.price_rub > 0)) {
+        fail(`${label}: price_rub должен быть целым числом рублей больше нуля`);
       }
       if (p.price_mode === 'hidden' && p.price_note) fail(`${label}: при price_mode "hidden" пометка о цене не выводится`);
       if (p.price_mode === 'note' && !p.price_note) fail(`${label}: price_mode "note" без текста пометки`);
@@ -143,6 +152,10 @@ if (exists('data/catalog.js')) {
       if (!s.title) fail(`${label}: нет названия`);
       if (![1, 2, 3].includes(s.level)) fail(`${label}: level должен быть 1, 2 или 3`);
       checkRefs(s.product_ids, label);
+      for (const id of s.product_ids || []) {
+        const p = byId.get(id);
+        if (p && !p.archived && !p.price_rub) fail(`${label}: у товара ${id} нет price_rub — итог сетапа не сойдётся`);
+      }
     }
 
     const slugs = new Set();
