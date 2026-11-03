@@ -17,7 +17,10 @@ function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     if (e.name.startsWith('.') || e.name === 'node_modules' || e.name === 'tools' || e.name === '_prodcheck' || e.name === '_prerender') continue;
     const full = path.join(dir, e.name);
-    if (e.isDirectory()) walk(full, out);
+    if (e.isDirectory()) {
+      if (fs.existsSync(path.join(full, 'package.json'))) continue;
+      walk(full, out);
+    }
     else out.push(full);
   }
   return out;
@@ -86,6 +89,25 @@ if (exists('articles/index.html') && exists('data/articles/order.json')) {
   }
 }
 
+// 1г. Даты статей: порядок в ленте и хабе считается по publishedAt, поэтому формат важен
+if (fs.existsSync(path.join(root, 'data', 'articles'))) {
+  const { toISO, todayISO } = require('./article-dates');
+  const dir = path.join(root, 'data', 'articles');
+  const today = todayISO();
+  const bad = [];
+  const future = [];
+  for (const f of fs.readdirSync(dir)) {
+    if (!f.endsWith('.json') || f === 'order.json') continue;
+    const a = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+    if (!a.slug) continue;
+    const iso = toISO(a.publishedAt);
+    if (!iso) bad.push(`${a.slug} (${a.publishedAt || 'нет даты'})`);
+    else if (iso > today) future.push(`${a.slug} (${iso})`);
+  }
+  if (bad.length) fail(`data/articles: не разобрать publishedAt — ${bad.join(', ')}`);
+  if (future.length) note(`publishedAt в будущем (в ленте считаем сегодняшней датой): ${future.join(', ')}`);
+}
+
 // 2. Карта страниц
 const files = walk(root);
 // служебные страницы: подтверждение Яндекса и страница ошибки живут по своим правилам
@@ -95,6 +117,16 @@ const SERVICE_PAGES = new Set(['404.html', 'index.spa.html']);
 const isServicePage = (f) => SERVICE_PAGES.has(path.basename(f)) || /^(yandex_|google)[0-9a-f]+\.html$/i.test(path.basename(f));
 const pages = files.filter((f) => f.endsWith('.html') && !f.includes(`${path.sep}tools${path.sep}`));
 const contentPages = pages.filter((f) => !isServicePage(f));
+
+// 1д. Админские скрипты не грузятся на публичных страницах напрямую
+const adminDirect = contentPages.filter((f) => /kd-admin-(catalog|links)\.js/.test(fs.readFileSync(f, 'utf8')));
+if (adminDirect.length) {
+  fail(
+    `админ-скрипты подключены напрямую (${adminDirect.length} стр.): ${adminDirect.slice(0, 3).map((f) => path.relative(root, f)).join(', ')} — нужен kd-admin-loader.js`
+  );
+} else {
+  note('админ-скрипты не грузятся на публичных страницах');
+}
 const bundle = files.find((f) => f.endsWith(path.join('assets', 'index.js')));
 if (!bundle) fail('нет assets/index.js');
 else {
