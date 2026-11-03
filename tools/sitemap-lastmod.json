@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "633bf15fea03f225f7379c3d0a46f14a017ca6da",
+    "hash": "4701615543047ca9eda59162672a17b3fcb780e7",
     "lastmod": "2026-11-03"
   },
   "/articles/": {
-    "hash": "bda1e8a2335666e8b8c01325e865c1d8832416f2",
-    "lastmod": "2026-11-02"
+    "hash": "816e080991c2942c58bd1c7e16b6cce3d8d682d2",
+    "lastmod": "2026-11-03"
   },
   "/calculator/": {
     "hash": "c5e15563a8bcb515d514fa0ce2884725fae52b37",
@@ -35,6 +35,10 @@
     "hash": "86ebd921e8e6f436ac55b017f697f7e18a77cd9a",
     "lastmod": "2026-11-02"
   },
+  "/article/rabochee-mesto-na-balkone/": {
+    "hash": "989a51c53f82b369621603d15d9a22a32ce80454",
+    "lastmod": "2026-11-03"
+  },
   "/article/printer-dlya-doma-kompaktno-i-kuda-postavit/": {
     "hash": "85ec61bb298b47ab13e00d200e6c8060aae53ddc",
     "lastmod": "2026-11-03"
@@ -44,7 +48,7 @@
     "lastmod": "2026-11-03"
   },
   "/article/domashnij-ofis-s-nulya-nedorogo/": {
-    "hash": "df49936d816a506d373aeba40b4cc19811d8f651",
+    "hash": "95908b887b3b02123dc54236f6c4dc8c7d10f81b",
     "lastmod": "2026-11-03"
   },
   "/article/kuda-postavit-rabochij-stol-v-komnate/": {
@@ -112,7 +116,7 @@
     "lastmod": "2026-11-03"
   },
   "/article/podemnyj-stol-kak-vybrat/": {
-    "hash": "ad1d98d0868cd930030945d5e049743ee4d5b3ff",
+    "hash": "b4087a44b26da5dc9a33d0db650acb2324616383",
     "lastmod": "2026-11-03"
   },
   "/article/udalennaya-rabota-s-rebenkom/": {

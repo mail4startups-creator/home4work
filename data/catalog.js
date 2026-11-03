@@ -405,10 +405,10 @@ window.KD_CATALOG = {
     },
     {
       "id": "desk-loft-wood-budget",
-      "name": "Письменный стол Hoff Loft Wood 120х60",
-      "brand": "Hoff Loft",
+      "name": "Стол письменный с ящиками Лофт Меркурий 100х50, дуб вотан/чёрный",
+      "brand": "Лофт Меркурий",
       "category": "",
-      "summary": "",
+      "summary": "Стол 100×50 с ящиком: глубина 50 см оставляет на балконе проход",
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
@@ -417,11 +417,11 @@ window.KD_CATALOG = {
       "offers": [
         {
           "store": "yandex",
-          "kind": "search",
-          "url": "https://market.yandex.ru/search?text=стол+письменный+лофт+120х60",
-          "label": "",
-          "erid": "",
-          "advertiser": ""
+          "kind": "card",
+          "url": "https://market.yandex.ru/cc/BTHze2?erid=5jtCeReNx12oak2tU521zLG",
+          "label": "Купить на Яндекс Маркете",
+          "erid": "5jtCeReNx12oak2tU521zLG",
+          "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
     },
@@ -757,6 +757,18 @@ window.KD_CATALOG = {
     }
   ],
   "articles": [
+    {
+      "slug": "rabochee-mesto-na-balkone",
+      "title": "Рабочее место на балконе: инженерия, а не картинка",
+      "block_title": "Компактный набор на балкон",
+      "product_ids": [
+        "desk-loft-wood-budget",
+        "chair-budget-burokrat",
+        "ergonomic-footrest-adjustable",
+        "cable-management-kit",
+        "xiaomi-lightbar"
+      ]
+    },
     {
       "slug": "balans-raboty-i-lichnoj-zhizni-na-udalenke",
       "title": "Баланс работы и личной жизни на удаленке: как перестать перерабатывать в 2026 году",
