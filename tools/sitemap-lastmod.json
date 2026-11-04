@@ -1,130 +1,130 @@
 {
   "/": {
-    "hash": "289f38fb040125e876bf13ccf8d4d6e3ea53ad09",
+    "hash": "3c263da28ec3acd59f2ba0222be3c14b400d18ad",
     "lastmod": "2026-11-04"
   },
   "/articles/": {
-    "hash": "d5ad94878f6ae06c8d837474f5839bd0345f25f7",
+    "hash": "d715e8f71cf9b67a56050f25aa52c0dbfcba2d9d",
     "lastmod": "2026-11-04"
   },
   "/calculator/": {
-    "hash": "bfb8add293887453a0d1ac3e7d3dde2c99dfcae0",
+    "hash": "627b8eb3f604e218b73d2bbad7ffd713f9ac2775",
     "lastmod": "2026-11-04"
   },
   "/builder/": {
-    "hash": "0a8d0c26f983850252e66a1691cebfededf93c71",
+    "hash": "869be512cc561ed9ad6bcd86228fdaec94bfb0d3",
     "lastmod": "2026-11-04"
   },
   "/tests/": {
-    "hash": "09231d6abb70cad96743f38c851808ee46f5d13a",
+    "hash": "62ed1386e161ee7156c7e32c322296a8f00b9d3b",
     "lastmod": "2026-11-04"
   },
   "/checklist/": {
-    "hash": "ac8d173c1a039dafc1a1cb62d763c1a30c931632",
+    "hash": "af16cc9ecccd0f362e2826339e4d50542a426841",
     "lastmod": "2026-11-04"
   },
   "/about/": {
-    "hash": "4d331cc23cad7fec04497d87428e7691be9a45a0",
+    "hash": "a41feb5fc406f1b4d08088105629e2f13452cf60",
     "lastmod": "2026-11-04"
   },
   "/privacy/": {
-    "hash": "9ae86f293d95758bce8468eb6a8b3d37f507a250",
+    "hash": "39eb8108c37af635aa0c62f8524f86944cab8974",
     "lastmod": "2026-11-04"
   },
   "/terms/": {
-    "hash": "acc92ddeb34f658d86c3ed34e2c7fa0e57668cbd",
-    "lastmod": "2026-11-04"
-  },
-  "/article/podemnyj-stol-kak-vybrat/": {
-    "hash": "436c36e1a1b413fc4d49dfa4e088e1961ac8ea42",
-    "lastmod": "2026-11-04"
-  },
-  "/article/udalennaya-rabota-s-rebenkom/": {
-    "hash": "6fe807f1e2585799fe711a20639dc92b7ccb9706",
-    "lastmod": "2026-11-04"
-  },
-  "/article/ergonomika-rabochego-mesta-nastroyka/": {
-    "hash": "39c9b81ba9fbf1a4fd25fbee3e07798b04ddd548",
+    "hash": "fbc64c4493e07dd8edf8fbd46b70236a9a5a1624",
     "lastmod": "2026-11-04"
   },
   "/article/rabochee-mesto-na-balkone/": {
-    "hash": "ce4301ca68f6e3a6d9e89b433a375bf0186e0469",
+    "hash": "3acb197daad1142795d3983add71d9df0f70a9d4",
     "lastmod": "2026-11-04"
   },
   "/article/printer-dlya-doma-kompaktno-i-kuda-postavit/": {
-    "hash": "df57bb022c8a6ba6b72519c90caba9847f660833",
+    "hash": "1ad37e73f687bc4e13d0e1cfb0420ae4891aa3a2",
     "lastmod": "2026-11-04"
   },
   "/article/kak-vybrat-kreslo-dlya-spiny/": {
-    "hash": "7162a358854a046ba6a6bdc8998408ec8eefb1db",
+    "hash": "cd9ac73c59263458837b1507dd2daa75a814b9d8",
+    "lastmod": "2026-11-04"
+  },
+  "/article/podemnyj-stol-kak-vybrat/": {
+    "hash": "aae6aa0e34f45a8971b87d80a85f10b8a40270e8",
+    "lastmod": "2026-11-04"
+  },
+  "/article/udalennaya-rabota-s-rebenkom/": {
+    "hash": "4051fa068417335656af09ad2a82eb752ddc0b10",
+    "lastmod": "2026-11-04"
+  },
+  "/article/ergonomika-rabochego-mesta-nastroyka/": {
+    "hash": "c16c25a887d9d9c8a5cf5c83e9a0852003235f1c",
     "lastmod": "2026-11-04"
   },
   "/article/udalennaya-rabota-v-poezdke-i-otpuske/": {
-    "hash": "3368e32e34ad9723d631a534ecfc02660286f469",
+    "hash": "60d49c541af2e43de761f48ca7d3f799d4ba861d",
     "lastmod": "2026-11-04"
   },
   "/article/balans-raboty-i-lichnoj-zhizni-na-udalenke/": {
-    "hash": "7d46e5fc84e656e4dc0ce25923fd9737b4e3d01a",
+    "hash": "2d6b67fe6b6da34d7b2c5a0a6230c1c636d66081",
     "lastmod": "2026-11-04"
   },
   "/article/v-kakoj-komnate-luchshe-rabotat-na-udalenke/": {
-    "hash": "8e1aa73c8e8e8777a9d68aa4d70dd661168f7365",
+    "hash": "9da66e89132e3ac37ade986b88515d08b26ea60f",
     "lastmod": "2026-11-04"
   },
   "/article/rabochee-mesto-v-odnushke-s-rebenkom/": {
-    "hash": "93c96fc7e54eadc7811f59b347652bea8c52ec05",
+    "hash": "f4cd0f299a82737f60cbadbcde4caba75ff5e17d",
     "lastmod": "2026-11-04"
   },
   "/article/kuda-postavit-rabochij-stol-v-komnate/": {
-    "hash": "eed5f8911ddad9d3d9f34ac98f626733b63b18f6",
+    "hash": "89918a9cd95784198e3bf142d1539b083a889a7b",
     "lastmod": "2026-11-04"
   },
   "/article/5-luchshih-ergonomichnyh-kresel-rejting/": {
-    "hash": "b73a15fa614f4f65bb6e8e927a5316f7b0a5dbc4",
+    "hash": "d7cda0b2207d584fb7b15cccf1cbc22916bb85f5",
     "lastmod": "2026-11-04"
   },
   "/article/stol-s-elektroprivodom-polza-dlya-spiny/": {
-    "hash": "5ee73ba839d9eb82ccf0dda7079363d6f4f31c16",
+    "hash": "df1a5aca2d403b80fd954168db03acd5f02fc624",
     "lastmod": "2026-11-04"
   },
   "/article/domashnij-ofis-s-nulya-nedorogo/": {
-    "hash": "c7a5084302ab8627afb92f2214927136f5d3b496",
+    "hash": "dc35a292fdb67b17a10fa60160d09835733c39cd",
     "lastmod": "2026-11-04"
   },
   "/article/mikrofon-s-shumopodavleniem-dlya-zvonkov/": {
-    "hash": "dfb4385d881560044fbc4ab151348711a663f885",
+    "hash": "e5296e335603cb2aa5ec30806a7cc5edb464c0c6",
     "lastmod": "2026-11-04"
   },
   "/article/skrinbar-na-monitor-vybor-zashchita-glaz/": {
-    "hash": "d98091e48ce439ae96183db95aa3394bac77172f",
+    "hash": "907713abb39fe0558707ae5a259f79643c6db5e5",
     "lastmod": "2026-11-04"
   },
   "/article/kronshtejn-dlya-monitora-ergonomika-shei/": {
-    "hash": "6be33c463d090d4df378f24aa5d326e4b96dd9aa",
+    "hash": "3472e726165c8ed78d2a389c37c3e4c9b368e81d",
     "lastmod": "2026-11-04"
   },
   "/article/kabel-menedzhment-pod-stolom-svoimi-rukami/": {
-    "hash": "eec7b258b57f5615c6f334303efc14dbc4631802",
+    "hash": "b0e45b580bc48cd8e3aa8e8a3d28a39b9a643420",
     "lastmod": "2026-11-04"
   },
   "/article/rabochee-mesto-dlya-dvoih-v-komnate/": {
-    "hash": "8200399b13b968c936b8573d36016045b0b77ee8",
+    "hash": "fb3cd4d3f3d1e2896c862afc30073779921e1ddc",
     "lastmod": "2026-11-04"
   },
   "/article/metod-svetofor-udalenka-s-detmi/": {
-    "hash": "31cfdd8af11d6e06714f3263678687f15dc1e5b6",
+    "hash": "58363f25a728d2028c4a09ee62b0baf62beaa1ec",
     "lastmod": "2026-11-04"
   },
   "/article/podstavka-dlya-nog-pod-stol-ergonomika/": {
-    "hash": "7eef751165c9a355f0f39ac0770af01485ed71c1",
+    "hash": "91caf69b94dc6804b43df080879a6b2e4a484b1d",
     "lastmod": "2026-11-04"
   },
   "/article/kronshtejn-dlya-monitora-na-stol-vybor/": {
-    "hash": "d24f61e3c9c360caf44ec9cedae7a5497e1de34c",
+    "hash": "e13bbf89aea190f207fef0d5e31f07ecec101f94",
     "lastmod": "2026-11-04"
   },
   "/article/akusticheskie-paneli-dlya-domashnego-kabineta/": {
-    "hash": "df02316c4dfbaaafa0dd5d62f949cdbea0730230",
+    "hash": "9c1753dff168e82fbd2b8fe1290951f5a4d7c57c",
     "lastmod": "2026-11-04"
   }
 }
