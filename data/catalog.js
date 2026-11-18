@@ -5,7 +5,7 @@
 // Правки: админка (Ctrl+Shift+A, код 2026) -> кнопка «Каталог» -> «Скачать catalog.js».
 window.KD_CATALOG = {
   "version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-18",
   "products": [
     {
       "id": "ergostol-terra",
@@ -16,7 +16,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 57545,
+      "price_rub": 60780,
       "archived": false,
       "offers": [
         {
@@ -38,15 +38,15 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 32693,
+      "price_rub": 30716,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BSwU5t?erid=5jtCeReNx12oak2szCiDxyy",
+          "url": "https://market.yandex.ru/cc/Bb9kVt?erid=MvGzQC9JbZnS6fV7C3sRthyi",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2szCiDxyy",
+          "erid": "MvGzQC9JbZnS6fV7C3sRthyi",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -60,7 +60,7 @@ window.KD_CATALOG = {
       "image": "/images/ergonomic-chair.svg",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 60488,
+      "price_rub": 58493,
       "archived": false,
       "offers": [
         {
@@ -82,7 +82,7 @@ window.KD_CATALOG = {
       "image": "/images/ergonomic-chair.svg",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 30348,
+      "price_rub": 31224,
       "archived": false,
       "offers": [
         {
@@ -104,7 +104,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 4998,
+      "price_rub": 5120,
       "archived": false,
       "offers": [
         {
@@ -127,14 +127,27 @@ window.KD_CATALOG = {
       "price_mode": "hidden",
       "price_note": "",
       "price_rub": 20896,
+      "archived": true,
+      "offers": []
+    },
+    {
+      "id": "screenbar-friendme",
+      "name": "Бестеневая лампа на монитор Friendme (двойной свет)",
+      "brand": "Friendme",
+      "category": "",
+      "summary": "",
+      "image": "",
+      "price_mode": "hidden",
+      "price_note": "",
+      "price_rub": 3010,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BSsqaS?erid=5jtCeReNx12oak2szCdoM9A",
+          "url": "https://market.yandex.ru/cc/BbAEr7?erid=MvGzQC9JbZnS6fV7C3sRuijH",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2szCdoM9A",
+          "erid": "MvGzQC9JbZnS6fV7C3sRuijH",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -148,7 +161,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 26627,
+      "price_rub": 27426,
       "archived": false,
       "offers": [
         {
@@ -170,15 +183,15 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 5705,
+      "price_rub": 9051,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BSssY6?erid=5jtCeReNx12oak2szCdoMSf",
+          "url": "https://market.yandex.ru/cc/Bb9obY?erid=MvGzQC9JbZnS6fV7C3sRtiD2",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2szCdoMSf",
+          "erid": "MvGzQC9JbZnS6fV7C3sRtiD2",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -192,7 +205,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 3375,
+      "price_rub": 3240,
       "archived": false,
       "offers": [
         {
@@ -214,7 +227,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 1693,
+      "price_rub": 1670,
       "archived": false,
       "offers": [
         {
@@ -236,7 +249,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 3647,
+      "price_rub": 3839,
       "archived": false,
       "offers": [
         {
@@ -258,15 +271,15 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 3381,
+      "price_rub": 8279,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BSswpv?erid=5jtCeReNx12oak2szCdogUD",
+          "url": "https://market.yandex.ru/cc/Bb9p4j?erid=MvGzQC9JbZnS6fV7C3sRtiD6",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2szCdogUD",
+          "erid": "MvGzQC9JbZnS6fV7C3sRtiD6",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -280,7 +293,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 2887,
+      "price_rub": 2951,
       "archived": false,
       "offers": [
         {
@@ -302,7 +315,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 2505,
+      "price_rub": 2885,
       "archived": false,
       "offers": [
         {
@@ -324,7 +337,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 7474,
+      "price_rub": 8005,
       "archived": false,
       "offers": [
         {
@@ -346,7 +359,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 14997,
+      "price_rub": 14366,
       "archived": false,
       "offers": [
         {
@@ -368,7 +381,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 27554,
+      "price_rub": 30067,
       "archived": false,
       "offers": [
         {
@@ -390,7 +403,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 72835,
+      "price_rub": 74620,
       "archived": false,
       "offers": [
         {
@@ -412,7 +425,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 8800,
+      "price_rub": 12126,
       "archived": false,
       "offers": [
         {
@@ -434,7 +447,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 16659,
+      "price_rub": 16692,
       "archived": false,
       "offers": [
         {
@@ -456,7 +469,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 1090,
+      "price_rub": 1690,
       "archived": false,
       "offers": [
         {
@@ -478,7 +491,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "note",
       "price_note": "2397",
-      "price_rub": 2397,
+      "price_rub": 2169,
       "archived": false,
       "offers": [
         {
@@ -500,7 +513,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "note",
       "price_note": "2263",
-      "price_rub": 2263,
+      "price_rub": 2234,
       "archived": false,
       "offers": [
         {
@@ -522,7 +535,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 1895,
+      "price_rub": 2000,
       "archived": false,
       "offers": [
         {
@@ -544,7 +557,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 6618,
+      "price_rub": 6984,
       "archived": false,
       "offers": [
         {
@@ -566,7 +579,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 6898,
+      "price_rub": 7119,
       "archived": false,
       "offers": [
         {
@@ -588,7 +601,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 5596,
+      "price_rub": 5904,
       "archived": false,
       "offers": [
         {
@@ -610,7 +623,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 2683,
+      "price_rub": 2797,
       "archived": false,
       "offers": [
         {
@@ -632,7 +645,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 3320,
+      "price_rub": 4491,
       "archived": false,
       "offers": [
         {
@@ -654,15 +667,15 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 15464,
+      "price_rub": 18556,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BT67SG?erid=5jtCeReNx12oak2tU4s6NdD",
+          "url": "https://market.yandex.ru/cc/Bb9por?erid=MvGzQC9JbZnS6fV7C3sRtiHU",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2tU4s6NdD",
+          "erid": "MvGzQC9JbZnS6fV7C3sRtiHU",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -676,7 +689,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 22689,
+      "price_rub": 23391,
       "archived": false,
       "offers": [
         {
@@ -698,7 +711,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 9728,
+      "price_rub": 9249,
       "archived": false,
       "offers": [
         {
@@ -720,7 +733,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 10085,
+      "price_rub": 10397,
       "archived": false,
       "offers": [
         {
@@ -742,7 +755,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
-      "price_rub": 40512,
+      "price_rub": 41484,
       "archived": false,
       "offers": [
         {
@@ -764,6 +777,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 16194,
       "archived": false,
       "offers": [
         {
@@ -785,6 +799,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 4091,
       "archived": false,
       "offers": [
         {
@@ -806,6 +821,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 21515,
       "archived": false,
       "offers": [
         {
@@ -827,6 +843,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 2246,
       "archived": false,
       "offers": [
         {
@@ -848,6 +865,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 1700,
       "archived": false,
       "offers": [
         {
@@ -869,6 +887,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 6252,
       "archived": false,
       "offers": [
         {
@@ -890,6 +909,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 3348,
       "archived": false,
       "offers": [
         {
@@ -911,6 +931,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 11273,
       "archived": false,
       "offers": [
         {
@@ -932,6 +953,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 19126,
       "archived": false,
       "offers": [
         {
@@ -953,6 +975,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 3720,
       "archived": false,
       "offers": [
         {
@@ -967,21 +990,22 @@ window.KD_CATALOG = {
     },
     {
       "id": "shokz-openfit-pro",
-      "name": "Наушники Shokz OpenFit Pro",
+      "name": "Наушники Shokz OpenFit",
       "brand": "Shokz",
       "category": "Наушники",
       "summary": "Открытое ухо, заушное крепление, Bluetooth 6.1: слышно и собеседника, и комнату.",
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 16643,
       "archived": false,
       "offers": [
         {
           "store": "yandex",
           "kind": "card",
-          "url": "https://market.yandex.ru/cc/BUJuXL?erid=5jtCeReNx12oak2tUX3GPah",
+          "url": "https://market.yandex.ru/cc/Bb9ujg?erid=MvGzQC9JbZnS6fV7C3sRu3Tf",
           "label": "Купить на Яндекс Маркете",
-          "erid": "5jtCeReNx12oak2tUX3GPah",
+          "erid": "MvGzQC9JbZnS6fV7C3sRu3Tf",
           "advertiser": "ООО «Яндекс Маркет», ИНН 9704254424"
         }
       ]
@@ -995,6 +1019,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 15866,
       "archived": false,
       "offers": [
         {
@@ -1016,6 +1041,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 10557,
       "archived": false,
       "offers": [
         {
@@ -1037,6 +1063,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 3180,
       "archived": false,
       "offers": [
         {
@@ -1058,6 +1085,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 3400,
       "archived": false,
       "offers": [
         {
@@ -1079,6 +1107,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 2654,
       "archived": false,
       "offers": [
         {
@@ -1100,6 +1129,7 @@ window.KD_CATALOG = {
       "image": "",
       "price_mode": "hidden",
       "price_note": "",
+      "price_rub": 2064,
       "archived": false,
       "offers": [
         {
@@ -1224,8 +1254,7 @@ window.KD_CATALOG = {
       "title": "Скринбар на монитор: как выбрать лампу для защиты глаз",
       "block_title": "Скринбары из сравнения",
       "product_ids": [
-        "xiaomi-lightbar",
-        "benq-screenbar-halo"
+        "xiaomi-lightbar"
       ]
     },
     {
@@ -1323,7 +1352,6 @@ window.KD_CATALOG = {
       "block_title": "Свет и провода на новом месте",
       "product_ids": [
         "xiaomi-lightbar",
-        "benq-screenbar-halo",
         "cable-management-kit",
         "onkron-g80"
       ]
